@@ -10,3 +10,6 @@ Final Project for Google Data Analytics Certificate / The Mom Project RISE Progr
     <li><a href="https://sjegoodman.github.io/monarch-migration/MigrationLatitudes.html">Map showing median latitudes of fall migration</a></li>
  <li><a href="https://public.tableau.com/app/profile/sjegoodman/viz/MonarchMigration/Dashboard1">Tableau Dashboard</a></li>
   <li>Interactive maps of <a href="https://sjegoodman.github.io/monarch-migration/Aug2020.html">August 2020</a> and <a href="https://sjegoodman.github.io/monarch-migration/Sep2020.html">September 2020</a></li></ul>
+<br>
+ <b>Technologies Used:</b> Python, Tableau, Pandas, Folium maps, HTML, Selenium webdriver<br><br>
+ <b>Data Source:</b> Journey North (https://journeynorth.org/) via <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.949.1">Environmental Data Initiative</a>

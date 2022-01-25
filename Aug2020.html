@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_64dceec3bf7547f999ec851153602af2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+             <h3 align="center" style="font-size:20px"><b>August 2020</b></h3>
+             
+    
+            <div class="folium-map" id="map_64dceec3bf7547f999ec851153602af2" ></div>
+        
+</body>
+<script>    
+    
+            var map_64dceec3bf7547f999ec851153602af2 = L.map(
+                "map_64dceec3bf7547f999ec851153602af2",
+                {
+                    center: [41.8755616, -82.6244212],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_702b0badf095463daed033a3cabdd215 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+            var marker_8ac35c3973d0443dbe4220fa9609bcb7 = L.marker(
+                [49.939, -95.923],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_2c2a1cc451194c78bdc403bb8f9ba746 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_8ac35c3973d0443dbe4220fa9609bcb7.setIcon(custom_icon_2c2a1cc451194c78bdc403bb8f9ba746);
+        
+    
+            marker_8ac35c3973d0443dbe4220fa9609bcb7.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526469424.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a31d32af48234835ac5c68f7c470123c = L.marker(
+                [42.461, -77.684],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_218524e3dd0d45c38c7dbfaba5bba1f1 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_a31d32af48234835ac5c68f7c470123c.setIcon(custom_icon_218524e3dd0d45c38c7dbfaba5bba1f1);
+        
+    
+            marker_a31d32af48234835ac5c68f7c470123c.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526469555.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4069b24515a4c799686eb5614a85e5b = L.marker(
+                [46.019, -95.416],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_950e2cfea92d4baa8bfa833de1d8c2dd = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_c4069b24515a4c799686eb5614a85e5b.setIcon(custom_icon_950e2cfea92d4baa8bfa833de1d8c2dd);
+        
+    
+            marker_c4069b24515a4c799686eb5614a85e5b.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526470682.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b370dddaa36434fabd9006de27af845 = L.marker(
+                [45.384, -94.763],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_08d5806ac63b4de3b2751105365919e4 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_1b370dddaa36434fabd9006de27af845.setIcon(custom_icon_08d5806ac63b4de3b2751105365919e4);
+        
+    
+            marker_1b370dddaa36434fabd9006de27af845.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526471876.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa5fc9b012ae4fee8a66dd2a7edbf5b7 = L.marker(
+                [44.561, -94.208],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_613c74599f7c4637b22f1b7053000144 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_aa5fc9b012ae4fee8a66dd2a7edbf5b7.setIcon(custom_icon_613c74599f7c4637b22f1b7053000144);
+        
+    
+            marker_aa5fc9b012ae4fee8a66dd2a7edbf5b7.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526473135.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddf1c20ae21348e4a3b90b94382c5c2a = L.marker(
+                [44.047, -91.442],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_9eeb4fdbe67340e68f67e4e8a9177080 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_ddf1c20ae21348e4a3b90b94382c5c2a.setIcon(custom_icon_9eeb4fdbe67340e68f67e4e8a9177080);
+        
+    
+            marker_ddf1c20ae21348e4a3b90b94382c5c2a.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526474012.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d616c5215bb84859897d5f1dff9dd8f4 = L.marker(
+                [41.556, -83.56],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_48d2cba0a77443e1a3308df1b8579ea5 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_d616c5215bb84859897d5f1dff9dd8f4.setIcon(custom_icon_48d2cba0a77443e1a3308df1b8579ea5);
+        
+    
+            marker_d616c5215bb84859897d5f1dff9dd8f4.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526474408.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b5b922ad51c4bfe8cf77e9f35db0d91 = L.marker(
+                [43.735, -81.723],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_dccc216059ba4d54a415ebe71d214e6e = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_4b5b922ad51c4bfe8cf77e9f35db0d91.setIcon(custom_icon_dccc216059ba4d54a415ebe71d214e6e);
+        
+    
+            marker_4b5b922ad51c4bfe8cf77e9f35db0d91.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526474876.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4855ee6e0f74b3784811922609aea83 = L.marker(
+                [45.67, -86.966],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_77ef4d3a5ea74926853f7ef61d5849f4 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_e4855ee6e0f74b3784811922609aea83.setIcon(custom_icon_77ef4d3a5ea74926853f7ef61d5849f4);
+        
+    
+            marker_e4855ee6e0f74b3784811922609aea83.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526474930.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48d9054a71574c6c962eb701450ac566 = L.marker(
+                [44.648, -83.293],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_456451d43d874dc49fd0896b8be12a89 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_48d9054a71574c6c962eb701450ac566.setIcon(custom_icon_456451d43d874dc49fd0896b8be12a89);
+        
+    
+            marker_48d9054a71574c6c962eb701450ac566.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475038.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c52519be2e34aeab125ec8a4dd800b4 = L.marker(
+                [43.904, -88.077],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_b59787e8a50942b0a8c0e47b3eb14f8b = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_9c52519be2e34aeab125ec8a4dd800b4.setIcon(custom_icon_b59787e8a50942b0a8c0e47b3eb14f8b);
+        
+    
+            marker_9c52519be2e34aeab125ec8a4dd800b4.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475052.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fffa84649df54534962fe935e6bf6c57 = L.marker(
+                [41.556, -83.56],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_728f2ff498b04b84b9d04d5a5cd6c2a1 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_fffa84649df54534962fe935e6bf6c57.setIcon(custom_icon_728f2ff498b04b84b9d04d5a5cd6c2a1);
+        
+    
+            marker_fffa84649df54534962fe935e6bf6c57.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475064.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68f542a10fbe49e291c3efb3053c9691 = L.marker(
+                [43.562, -93.812],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_a2cb57bd6364449d96bd094968102dc3 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_68f542a10fbe49e291c3efb3053c9691.setIcon(custom_icon_a2cb57bd6364449d96bd094968102dc3);
+        
+    
+            marker_68f542a10fbe49e291c3efb3053c9691.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475065.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9581aecb7a1f4b5e89ac730932ef1622 = L.marker(
+                [45.262, -92.738],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_67eb8fd0ce26401e849724e9df16d5ee = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_9581aecb7a1f4b5e89ac730932ef1622.setIcon(custom_icon_67eb8fd0ce26401e849724e9df16d5ee);
+        
+    
+            marker_9581aecb7a1f4b5e89ac730932ef1622.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475114.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0bd0fc2246f4622a1562c068a91500e = L.marker(
+                [43.063, -95.449],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_b740afe7baee4ca394c4db70f1f39a6c = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_a0bd0fc2246f4622a1562c068a91500e.setIcon(custom_icon_b740afe7baee4ca394c4db70f1f39a6c);
+        
+    
+            marker_a0bd0fc2246f4622a1562c068a91500e.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475122.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5b09494cc0d47aa90c7228ec8aa474c = L.marker(
+                [43.896, -78.59],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_aed40bf4df2f4d2d96f0c007b2125e19 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_e5b09494cc0d47aa90c7228ec8aa474c.setIcon(custom_icon_aed40bf4df2f4d2d96f0c007b2125e19);
+        
+    
+            marker_e5b09494cc0d47aa90c7228ec8aa474c.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475164.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6ddb647bd614f1e89e2b1b58c735550 = L.marker(
+                [43.634, -79.433],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_4d8ece15236a4a539062adfd6f98c796 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_d6ddb647bd614f1e89e2b1b58c735550.setIcon(custom_icon_4d8ece15236a4a539062adfd6f98c796);
+        
+    
+            marker_d6ddb647bd614f1e89e2b1b58c735550.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475251.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7c8594df27a411784ff32bd78bef491 = L.marker(
+                [43.896, -78.592],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_7b2e65096e1841a49e24595a40bc9e13 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_d7c8594df27a411784ff32bd78bef491.setIcon(custom_icon_7b2e65096e1841a49e24595a40bc9e13);
+        
+    
+            marker_d7c8594df27a411784ff32bd78bef491.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475253.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15cbfed706ac494d9700ac7c3ed39eb7 = L.marker(
+                [44.254, -83.448],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_c377330fe8604ee8a88ecd44e57f8414 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_15cbfed706ac494d9700ac7c3ed39eb7.setIcon(custom_icon_c377330fe8604ee8a88ecd44e57f8414);
+        
+    
+            marker_15cbfed706ac494d9700ac7c3ed39eb7.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475317.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d13753aab99e4cdb94ffdf0df8beae4c = L.marker(
+                [43.918, -78.589],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_39aa155344c14a6c941bafd241092a52 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_d13753aab99e4cdb94ffdf0df8beae4c.setIcon(custom_icon_39aa155344c14a6c941bafd241092a52);
+        
+    
+            marker_d13753aab99e4cdb94ffdf0df8beae4c.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475412.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d664fbc076a4fe69c737f1548b7bbe3 = L.marker(
+                [41.757, -81.258],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_6e8afe3e4a324c81a6ac4ae8c52be0f5 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_8d664fbc076a4fe69c737f1548b7bbe3.setIcon(custom_icon_6e8afe3e4a324c81a6ac4ae8c52be0f5);
+        
+    
+            marker_8d664fbc076a4fe69c737f1548b7bbe3.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475617.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46ef56d240604b4e888d91eefcbd996e = L.marker(
+                [43.594, -79.671],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_a260cd52e75046bfabc08bbe579698d5 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_46ef56d240604b4e888d91eefcbd996e.setIcon(custom_icon_a260cd52e75046bfabc08bbe579698d5);
+        
+    
+            marker_46ef56d240604b4e888d91eefcbd996e.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526475633.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff6bd9332d1d4795babadd453518182d = L.marker(
+                [43.062, -95.449],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_a26883d1012448e3a7efc26ddeb7dfc8 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_ff6bd9332d1d4795babadd453518182d.setIcon(custom_icon_a26883d1012448e3a7efc26ddeb7dfc8);
+        
+    
+            marker_ff6bd9332d1d4795babadd453518182d.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526475712.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ddf6276f5e1486dbc6133b659a5ce10 = L.marker(
+                [43.643, -93.891],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_465181d19e014c37b71a4f5be5107586 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_3ddf6276f5e1486dbc6133b659a5ce10.setIcon(custom_icon_465181d19e014c37b71a4f5be5107586);
+        
+    
+            marker_3ddf6276f5e1486dbc6133b659a5ce10.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526475713.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_841d92ade55d44bd8598a4a0073f0f17 = L.marker(
+                [43.427, -81.351],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_97216c53c4fb4e3b9101f604eb6d56c8 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_841d92ade55d44bd8598a4a0073f0f17.setIcon(custom_icon_97216c53c4fb4e3b9101f604eb6d56c8);
+        
+    
+            marker_841d92ade55d44bd8598a4a0073f0f17.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526475734.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7dc1af6d95b34d80b059d280950c670a = L.marker(
+                [45.042, -74.429],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_70f6e3074c884e3e86a48e837a137667 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_7dc1af6d95b34d80b059d280950c670a.setIcon(custom_icon_70f6e3074c884e3e86a48e837a137667);
+        
+    
+            marker_7dc1af6d95b34d80b059d280950c670a.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526475925.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7437ad847557427dbe9854a536d1a1e0 = L.marker(
+                [43.18, -79.507],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_e0a098636cf14b668b97500abcc4125e = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_7437ad847557427dbe9854a536d1a1e0.setIcon(custom_icon_e0a098636cf14b668b97500abcc4125e);
+        
+    
+            marker_7437ad847557427dbe9854a536d1a1e0.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526475948.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41a19d0117a74b20b056073dc6c537fd = L.marker(
+                [42.99, -89.058],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_93b8ccede3244ae9937ffff191b44aed = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_41a19d0117a74b20b056073dc6c537fd.setIcon(custom_icon_93b8ccede3244ae9937ffff191b44aed);
+        
+    
+            marker_41a19d0117a74b20b056073dc6c537fd.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526477067.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e37a1b4905c4cea88d02b76b3083aa6 = L.marker(
+                [44.358, -81.382],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_2133c3ac95fc45bf9b5a8bf1acb3816c = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_3e37a1b4905c4cea88d02b76b3083aa6.setIcon(custom_icon_2133c3ac95fc45bf9b5a8bf1acb3816c);
+        
+    
+            marker_3e37a1b4905c4cea88d02b76b3083aa6.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526478010.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42a1db2703dc409ca63aab9c4147a0c7 = L.marker(
+                [45.735, -94.974],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_a1f091dc3a28454497dfecbdb8068a8e = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_42a1db2703dc409ca63aab9c4147a0c7.setIcon(custom_icon_a1f091dc3a28454497dfecbdb8068a8e);
+        
+    
+            marker_42a1db2703dc409ca63aab9c4147a0c7.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526481483.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daf21da383564fecb1a9a836212bd8b3 = L.marker(
+                [45.735, -94.973],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_6689f249462e4974a3de076102e17951 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_daf21da383564fecb1a9a836212bd8b3.setIcon(custom_icon_6689f249462e4974a3de076102e17951);
+        
+    
+            marker_daf21da383564fecb1a9a836212bd8b3.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526481484.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b9bd7a2707645a1ba74b55b28f8530c = L.marker(
+                [45.735, -94.973],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_0c6e30cea83940a2bd13c6f60f1a6eae = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_1b9bd7a2707645a1ba74b55b28f8530c.setIcon(custom_icon_0c6e30cea83940a2bd13c6f60f1a6eae);
+        
+    
+            marker_1b9bd7a2707645a1ba74b55b28f8530c.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526481488.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f2dcfabeeb1490984f0fb8d64cc1cd0 = L.marker(
+                [45.992, -95.965],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_b72a29a44fcf49d49a7ed8ec43f7ae28 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_4f2dcfabeeb1490984f0fb8d64cc1cd0.setIcon(custom_icon_b72a29a44fcf49d49a7ed8ec43f7ae28);
+        
+    
+            marker_4f2dcfabeeb1490984f0fb8d64cc1cd0.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/09/1526483857.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a16d9bceffe4e51b0977bdfc929dab2 = L.marker(
+                [41.327, -71.97],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_5dcc666b774c42f388ac8949ee99ff00 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_3a16d9bceffe4e51b0977bdfc929dab2.setIcon(custom_icon_5dcc666b774c42f388ac8949ee99ff00);
+        
+    
+            marker_3a16d9bceffe4e51b0977bdfc929dab2.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/08/1526485796.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_797e78b55c8246978446ef0d5e1012d6 = L.marker(
+                [43.938, -78.344],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_c31e066ec0dd49d1bdac7d688604fd69 = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_797e78b55c8246978446ef0d5e1012d6.setIcon(custom_icon_c31e066ec0dd49d1bdac7d688604fd69);
+        
+    
+            marker_797e78b55c8246978446ef0d5e1012d6.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/11/1526497813.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cc3d32625254a3886cd9e5862f88c89 = L.marker(
+                [43.937, -78.349],
+                {}
+            ).addTo(map_64dceec3bf7547f999ec851153602af2);
+        
+    
+        var custom_icon_c0656de2094b4a2b9943940e182cad8a = L.icon({"iconSize": [14, 14], "iconUrl": "https://raw.githubusercontent.com/sjegoodman/monarch-migration/main/monarch_pic_small.png"});
+        marker_6cc3d32625254a3886cd9e5862f88c89.setIcon(custom_icon_c0656de2094b4a2b9943940e182cad8a);
+        
+    
+            marker_6cc3d32625254a3886cd9e5862f88c89.bindTooltip(
+                `<div>
+                     <img src="//journeynorth.org/jnorth/images/userfiles2020/11/1526497814.jpg"  width="200" height="200">
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

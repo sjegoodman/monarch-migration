@@ -4,6 +4,7 @@ Final Project for Google Data Analytics Certificate / The Mom Project RISE Progr
 <b>Samantha Goodman - January, 2022</b>
 
 <img src="https://pixnio.com/free-images/2016/06/06/monarch-butterfly-close-macro-orange-bug-insect.jpg"  width="300" height="200">
+<img src="https://sjegoodman.github.io/monarch-migration/GifMap/GifMap2019.gif"  width="300" height="200">
  <b>Summary/Presentation: </b><a href="https://github.com/sjegoodman/monarch-migration/blob/main/MonarchMigrationPresentation.pdf">View</a> or <a href="https://sjegoodman.github.io/monarch-migration/MonarchMigrationPresentation.pdf">Download</a><br><br> 
  <b>Visualizations:</b>
   <ul><li><a href="https://sjegoodman.github.io/monarch-migration/GifMap/GifMap2019.gif">Animated gif of monarch migration</a> - Fall 2019</li>

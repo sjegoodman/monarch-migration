@@ -1,0 +1,11 @@
+# Tested October 2026 with Python 3.13
+pandas==3.0.5
+numpy==2.5.3
+matplotlib==3.11.2
+folium==0.20.0
+jupyter
+
+# Only needed to rebuild the animated gif (MAKE_GIF = True)
+imageio==2.37.4
+pillow==12.3.0
+selenium==4.51.0

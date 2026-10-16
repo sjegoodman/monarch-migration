@@ -1,7 +1,7 @@
 # Monarch Migration Case Study
 <i>Analyzing Eastern monarch migration for years 2015-2020<br></i>
-Final Project for Google Data Analytics Certificate / The Mom Project RISE Program<br>
 <b>Samantha Goodman - January, 2022</b>
+<br> Updated October 2026
 
 <img src="https://pixnio.com/free-images/2016/06/06/monarch-butterfly-close-macro-orange-bug-insect.jpg"  width="300" height="200">
 <img src="https://sjegoodman.github.io/monarch-migration/GifMap/GifMap2019.gif"  width="300" height="200">
